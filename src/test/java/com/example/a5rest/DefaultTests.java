@@ -13,9 +13,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
-import com.example.a5rest.api.handler.ApiResponse;
-import com.example.a5rest.api.handler.DefaultHandler;
-import com.example.a5rest.api.router.DefaultRouter;
+import com.example.a5.api.ApiResponse;
+import com.example.a5.api.handler.DefaultHandler;
+import com.example.a5.api.router.DefaultRouter;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = { DefaultRouter.class, DefaultHandler.class })

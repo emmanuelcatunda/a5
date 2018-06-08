@@ -1,4 +1,4 @@
-package com.example.a5rest.model;
+package com.example.a5.model;
 
 import java.io.Serializable;
 import java.util.Map;
@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "people")
 public class Person implements Serializable {
 
+	private static final long serialVersionUID = 5245359609623005818L;
 	@Id
 	private String id;
 	private byte[] qrCode;

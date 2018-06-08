@@ -1,4 +1,4 @@
-package com.example.a5rest;
+package com.example.a5;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

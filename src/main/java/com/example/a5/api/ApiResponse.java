@@ -1,4 +1,4 @@
-package com.example.a5rest.api.handler;
+package com.example.a5.api;
 
 import java.io.Serializable;
 import java.util.HashMap;
