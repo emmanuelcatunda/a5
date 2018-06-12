@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @SpringBootApplication
 @EnableMongoRepositories
-@ComponentScan(basePackages = "com.example.a5rest")
+@ComponentScan(basePackages = "com.example.a5")
 public class A5restApplication {
 
 	public static void main(String[] args) {
